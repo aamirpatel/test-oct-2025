@@ -27,6 +27,10 @@ jobs:
   build-windows:
     # The type of runner that the job will run on
     runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v4
+    -   run: echo "building on windows"
+      
   build-ubuntu:
     runs-on: ubuntu-latest
  
