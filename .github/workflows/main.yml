@@ -2,7 +2,7 @@ name: test CI
 on: 
   push: 
     branches: [ main ]
-  pull_request: 
+  pull_request_review: 
     branches: [ main ]
 jobs:
   build:
