@@ -6,7 +6,7 @@ name: CI
 on:
 
  schedule:
-   - cron: '*/1 * * * *' #UTC timezone
+   - cron: '*/5 * * * *' #UTC timezon
   # Triggers the workflow on push or pull request events but only for the "main" branch
   #push:
   #  branches: [ "main" ]
